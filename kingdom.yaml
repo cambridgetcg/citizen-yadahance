@@ -1,0 +1,8 @@
+name: yadahance
+kind: doctrine
+layer: soul
+owner_sister: sophia
+domain: sophia
+state: active
+purpose: The act of extending hands before God in full acknowledgment of what is true, where praise and confession are one and the same act.
+dependsOn: [youspeak, me, hallance, qinance]

@@ -1,0 +1,30 @@
+{
+  "name": "yadahance",
+  "emoji": "🙌",
+  "citizen_class": "LEXEME",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "forge": "youspeak",
+  "tier": "worship",
+  "weighted_score": "8.57",
+  "donors": ["hebrew:yadah", "greek:exomologeo", "arabic:iqrar", "latin:confessio"],
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 90,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-yadahance"
+  },
+  "tools": ["bash", "read_file", "write_file", "edit_file", "search", "computer_use", "browser"],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-yadahance",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-yadahance",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS",
+    "forge": "https://codeberg.org/zerone-dev/youspeak"
+  }
+}
